@@ -1,0 +1,107 @@
+<!--include head elements-->
+<% include partials/header %>
+
+<body>
+
+<!-- Navgivation Bar -->
+<% include partials/navigation-bar %>
+
+    <section class="section-slide section-slide-resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="resume-text">
+                        <!-- resume content	 -->
+                        <div id="page-wrap">
+                            <img src="/img/image-profile.jpg" alt="Photo of me" id="pic" />
+                            <div id="contact-info" class="vcard">
+                                <!-- Microformats! -->
+                                <h1 class="fn">Athanasios Zelios</h1>
+                                <p>
+                                    Phone: <span class="tel">+30 698-6278-920</span><br />
+                                    Email: <a class="email" href="mailto:athanasios.zelios@hotmail.com">athanasios.zelios@hotmail.com</a>
+                                </p>
+                            </div>
+                            <div id="objective">
+                                <p>
+                                   I am an ICT professional with a wide background in research, information system management, software development and service sector. The international environment, my good communication skills and the curiosity for technology have been my best companions in a journey towards joy and success.<br /> Feel free to download this Resume <a href="#download" style="font-weight: bold;">here &darr;</a>:
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                            <dl>
+                                <dd class="clear"></dd>
+                                <dt>Education</dt>
+                                <dd>
+                                    <h2>Stockholm University</h2>
+                                    <h3>Information System Management (MSc)</h3>
+                                </dd>
+                                <dd>
+                                    <h2>Athens University of Econcomics and Business</h2>
+                                    <h3>Computer Science (BSc)</h3>
+                                    <p><strong>Major:</strong> Information Systems<br />
+                                        <strong>Minor:</strong> Databases and Systems Security</p>
+                                </dd>
+                                <dd class="clear"></dd>
+                                <dt>Skills</dt>
+                                <dd>
+                                    <h2>Hard</h2>
+                                    <ul>
+                                					<li>Python, R, C++, Java, SQL, MATLAB, SSRS, SSIS, SSAS, UML, BPMN, Tibco</li>
+                                					<li>Microsoft Office/ Project/ Visio/ Excel /Powerpoint/ Sharepoint/ Infopath/ BizTalk</li>
+                                					<li>Windows, Linux, Unix</li>
+                                				</ul>
+                                    <h2>Soft</h2>
+                                    <ul>
+                                					<li>Decision making</li>
+                                					<li>Problem solving</li>
+                                					<li>Presentation</li>
+                                					<li>Public speaking</li>
+                                					<li>Active listening</li>
+                                					<li>Dealing with conflict</li>
+                                					<li>Technical writing</li>
+                                					<li> Systemic Thinker</li>
+                                				</ul>
+                                </dd>
+                                <dd class="clear"></dd>
+                                <dt>Experience</dt>
+                                <dd>
+                                    <h2>MarineTraffic <span>Customer Support Engineer, Athens GR 2017-now</span></h2>
+                                    <ul>
+                                        <li>Presales support</li>
+                                        <li>API services troubleshooting and Documentation responsible</li>
+                                        <li>Setting up Customer Success procedures</li>
+                                        <li>API Community growth responsible</li>
+                                    </ul>
+                                    <h2>CERN <span>Electrical Engineer - Geneva CH - 2014-2016</span></h2>
+                                    <ul>
+                                        <li>Data acquisition using LabVIEW</li>
+                                        <li>Database creation and maintenance: SQL and Microsoft Access</li>
+                                        <li>Development of Front-End software for instruments in the lab (C++, XML)</li>
+                                    </ul>
+                                    <h2>Sieben <span>Business Application Consultant - Athens GR - 2011</span></h2>
+                                    <ul>
+                                        <li>Intranet development and document management using Microsoft Sharepoint, Microsoft Infopath and Javascript</li>
+                                        <li>Product Requirements Acquisition</li>
+                                        <li>Product Delivery</li>
+                                    </ul>
+                                </dd>
+                                <dd class="clear"></dd>
+                                <dt>Hobbies</dt>
+                                <dd>Sailing, Hiking, Cooking, Chess, Basketball</dd>
+                            </dl>
+                            <div class="clear"></div>
+                        </div>
+                        <!-- EOresume contennt -->
+                    </div>
+                </div>
+            </div>
+            <form method="get" action="https://azelios.gr/other/Resume_Athanasios-Zelios_.pdf" target="_blank" style="text-align: center;">
+                <button class="btn btn-download-resume btn-outline-success" type="submit" id="download">
+                    <i class="fa fa-download"> Download Resume</i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+<!--footer elements-->
+<% include partials/footer %>

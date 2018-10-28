@@ -1,0 +1,20 @@
+User-agent: *
+Allow:/
+
+User-Agent: Baiduspider
+Allow: /
+
+User-Agent: Baiduspider-ads
+Allow: /*
+
+User-agent: psbot
+Disallow: /
+
+User-agent: NPBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: NPBot-1/2.0
+Disallow: /

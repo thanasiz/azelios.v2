@@ -1,0 +1,274 @@
+.main {
+	font-family: Lato;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	text-align: justify;
+	word-wrap: break-word;
+	padding-top: 8%;
+	padding-bottom: 4%;
+}
+
+ul {
+	margin: 0 0 32px 17px;
+}
+
+li {
+	word-wrap: break-word;
+}
+
+.navbar {
+	padding: 0px;
+}
+
+.navlink {
+	color: rgba(0, 0, 0, .5);
+}
+
+.navbar-brand {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	padding: 0px;
+}
+
+.dropdown-item:active {
+	background-color: white !important;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h2,
+h3 {
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	position: relative;
+}
+
+h2 span,
+h3 span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	color: #999;
+	font-weight: normal;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.fab {
+	color: #169D7E;
+	transform: scale(1.5, 1.5);
+	padding-right: 20px;
+
+}
+
+.dropdown {
+	margin-top: 100px;
+	position: relative;
+	display: inline-block;
+	border: 0px;
+	outline: 0px;
+	border-style: none;
+	margin: 0px;
+}
+
+.dropdown-menu {
+	border: 0px;
+	outline: 0px;
+	border-style: none;
+	margin: 0px;
+}
+
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+img.resize {
+	border: none;
+}
+
+img {
+	width: 40%;
+	height: 30%;
+	margin: 0;
+}
+
+#main-content {
+	color: white;
+	text-align: center;
+	padding-top: 25%;
+	padding-left: 5%;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	0px 8px 13px rgba(0, 0, 0, 0.1),
+	0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#Home {
+	font-size: 5em;
+	font-weight: 700;
+}
+
+#welcome-page {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1470920941400-7998c026b8ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fa196e72a31c1620b6e4ddbf816ab501&auto=format&fit=crop&w=1040&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+
+#tags-page-top {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a53f6ccb2fccd80ae7f6c6af8f289319&auto=format&fit=crop&w=1050&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: auto;
+	background-size: cover;
+}
+
+#customer-page-top {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1501770118606-b1d640526693?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab80dc0f470167d5ce29754086269536&auto=format&fit=crop&w=1050&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: auto;
+	background-size: cover;
+}
+
+
+
+.section-slide-description {
+	background-image: none;
+	background-color: white;
+}
+
+.section-slide-resume {
+	background-image: none;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.btn-download-resume {
+	background-color: #E87D13;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.btn-download-resume:hover {
+	background-color: white;
+	color: #E87D13;
+	border-color: #C9843E;
+}
+
+#objective {
+	width: 500px;
+	float: left;
+}
+
+#objective p {
+	font-family: Georgia, Serif;
+	font-style: italic;
+	color: #666;
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding: 0 26px 0 0;
+	width: 150px;
+	float: left;
+	height: 100px;
+	border-right: 1px solid #999;
+}
+
+dd {
+	width: 600px;
+	float: right;
+}
+
+dd.clear {
+	float: none;
+	margin: 0;
+	height: 15px;
+}
+
+td {
+	width: 50%;
+}
+
+#page-wrap {
+	width: 800px;
+	margin: 40px auto 60px;
+}
+
+#pic {
+	width: 30%;
+	height: 30%;
+	float: right;
+	margin: -10px 0 0 0;
+	border-radius: 50%;
+}
+
+.clear {
+	clear: both;
+}
+
+#blogs-area {
+	margin-top: 5%;
+	font-family: adobe-garamond-pro;
+	margin-bottom: 5%;
+}
+
+#blog-title {
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 2%;
+}
+
+#blog-date {
+	text-align: center;
+	font-weight: 100;
+	line-height: 1.6em;
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 16px;
+  }
+}

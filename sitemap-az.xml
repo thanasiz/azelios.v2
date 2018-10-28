@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!--<guid value="0a593bcb-a5ac-45b2-b3a0-1222b54924f3" />-->
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+	<url>
+		<loc>https://azelios.gr/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>https://azelios.gr/resume</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>https://azelios.gr/description</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>https://azelios.gr/tags</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>https://azelios.gr/tags/customer-support-engineer-product-manager</loc>
+		<changefreq>monthly</changefreq>
+		<lastmod>2018-10-24</lastmod>
+		<priority>0.8</priority>
+	</url>
+
+</urlset>
