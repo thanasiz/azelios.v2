@@ -1,0 +1,152 @@
+<!--head elements-->
+<% include ../partials/header %>
+
+<body style = "padding:0px">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Navgivation Bar -->
+<% include ../partials/navigation-bar %>
+            <script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
+			<script>
+			$(function() {
+			      $("body").prognroll({
+			        height: 5, //Progress bar height in pixels
+			        color: "#16F2B4", //Progress bar background color
+			      });
+			    });
+			</script>
+<div class="container">
+	<div class = "row">
+		<div class = "col-lg-12">
+            <div id="cynefin-page-top">
+
+            </div>
+        </div>
+    </div>
+    <div class = "row justify-content-md-center" id="blogs-area">
+		<div class = "col-md-9">
+		    <div id ="article-1" >
+		    	<h3 id="blog-date"> November 2, 2018</h3>
+		    	<h2 id="blog-title">Dealing with uncertainty and scaling in human systems</h2>
+		        <p>
+		            In a recent Agile Summit in Athens, I had the amazing opportunity to attend the speech of <a href="https://en.wikipedia.org/wiki/Dave_Snowden"> David John Snowden</a> regarding complex thinking in order to handle high levels of uncertainty. During his speech, we became familiar with the Cynefin framework and particularly the misconceptions of organization leaders when facing the scalability of a complex adaptive system such as their companies.
+                </p>
+                <p>
+                    Below I will try to summarize the main points of the Cynefin framework and also provide with some context for complex thinking and key points of the speech.
+                </p>
+                <p>
+                    <h3 id=blog-title>How can you deal with uncertainty and scaling in human systems?</h3>
+                </p>
+                <p>
+                   First things first...</br>
+                   What is a system? <strong>System</strong> is a collection of interdependent and interacting units forming an integrated whole. Thus when we are thinking about a system it is not only its parts but also the connections and restrains of it. This is something Aristotle mentioned a few thousands of years ago.
+                </p>
+                <p>
+                    Now, <strong>complex thinking</strong> (which is not a subset of systems thinking) focuses on describing the current state and identifying what we can change in that. Imagine it like like starting a journey rather than setting goals.
+                </p>
+                <p>
+                    <strong>Why</strong> do we choose <strong>this approach for human systems</strong>?
+                    <ol>
+                        <li>
+                            Setting up goals does not allow us to identify the not anticipated opportunities presented during the journey as we focus with our limited cognition capabilities to the goal and succeeding in it at every cost while using all means in our disposal with catastrophic consequences in some cases.
+                        </li>
+                        <li>
+                            Understanding the current state and identifying the constraints can provide with a great level of resilience and adaptive capacity. Moreover, we get to pay more attention to the necessary context that a method needs to work (think about it next time you try to use a method which was planned for another context).
+                        </li>
+                        <li>
+                            It helps to understand why there are no recipes for success which produce predictable results. Thus we need a deep understanding of human cognitive science and systems science.
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    Before I go any further with the Cynefin framework that was presented I need to explain what a framework is and how it differentiates from a model.
+                    <ul>
+                        <li>
+                            Starting with models, they are representations of the world. What is not widely perceived is the fact that "the only valid model of a human system is the system itself" as <a href="https://en.wikipedia.org/wiki/Murray_Gell-Mann"> Murray Gell-Mann </a> has mentioned. Therefore they need to be used with caution due to their inherent restrictions.
+                        </li>
+                        <li>
+                            Frameworks, on the other hand, it's a way of looking at things from different perspectives in order to make distinctions. This allows us to do things in different ways.
+                        </li>
+                    </ul>
+                </p>
+		<br>
+		<p><strong>Cynefin Framework</strong></p>
+                <p>
+                    <img src="/img/Cynefin_framework.png" alt="Cynefin Framework representation" class="center">
+                </p>
+                <p>
+                   The right part of the above framework representation refers to the "Predictable World" and the left part refers to the "Unpredictable World". The dark domain in the middle represents "Disorder".
+                </p>
+                <p>
+                    The main characteristic of the "Predictable World" is that things tend to repeat themselves periodically. While in the "Unpredictable World" things do not happen in the way they happened in the past.
+                    <ul>
+                        <li>
+                            "Obvious" -  Cause and effect have a clear and tight relationship. This allows the setup of best practices. This is the only place where recipes live.
+                        </li>
+                        <li>
+                            "Complicated" - Here, there is a connection between cause and effect but is fuzzy - dark constraints. Things repeat over time but experience and expertise are required to further clarify these connections. Good practices (not best) live here. Things in this situation again repeat time after time.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    "Unpredictable World" here live novelty, safe to fail experiments in order to identify how to nudge a system to new states. Here is also where empiricism can be catastrophic if not used properly as experience cannot be helpful. Two main categories here as well:
+                    <ul>
+                        <li>
+                            "Complex" - Most human relationships and systems live here. Remember when somebody said, "Parenting is not rocket science"? Well, actually they were right as Rocket Science lies in the "Complicated" part of the framework while Parenting in the "Complex" (Parents I suppose already know it - just informing the rest).
+                        </li>
+                        <li>
+                            "Chaos" - No pattern, no cause-effect connection. In these systems leaders or in general humans experiment while closely observing until patterns emerge.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    The baseline of the above map and stages is that none of them is permanent. Systems most possibly start from chaos go to complex and then pass on to complicated or even obvious at the end. Realising where you are and what you can do in each stage is essential.
+                </p>
+		<p><strong>What do you need to remember when attempting to scale a human system?</strong></p>
+                <p>
+                    Some basic guidelines are the following: <br>
+                    <strong>Dos:</strong>
+                    <ul>
+                        <li>Decompose things to the lowest coherent object</li>
+                        <li>Define protocols for the interaction between objects</li>
+                        <li>Allow patterns to emerge during the stimulation of the system</li>
+                    </ul>
+                    <strong>Don'ts</strong>
+                    <ul>
+                        <li>Use aggregation or imitation</li>
+                        <li>Use a massive diagram to pile up all the characteristics of the system</li>
+                        <li>Use empiricism. Prior experience does not provide a safe pathway.</li>
+                    </ul>
+                </p>
+                <p><strong>DECOMPOSITION</strong> and <strong>RECOMBINATION</strong> are the <strong>keys to success</strong></p>
+		<p>If you have an hour to spend on something super interesting watch the following video (one hour watch)</p>
+		<iframe style="margin-left:150px" width="560" height="315" src="https://www.youtube.com/embed/bMaNFT6P9kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	    </div>
+	</div>
+<div id="disqus_thread"></div>
+
+<script>
+    var disqus_config = function () {
+    this.page.url = "https://azelios.gr/tags/";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "uncertainty-scaling-human-systems"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://azelios.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+    <!--footer elements-->
+<% include ../partials/footer %>

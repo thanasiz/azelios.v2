@@ -2,9 +2,20 @@
 <% include ../partials/header %>
 
 <body style = "padding:0px">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <!-- Navgivation Bar -->
 <% include ../partials/navigation-bar %>
+			<script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
+			<script>
+				$(function() {
+			      $("body").prognroll({
+			        height: 5, //Progress bar height in pixels
+			        color: "#16F2B4", //Progress bar background color
+			      });
+			    });
+			</script>
 <div class="container">
 	<div class = "row">
 		<div class = "col-lg-12">
@@ -27,38 +38,27 @@
                 <p>
                     <h3 id=blog-title>Why customer support engineers is the best choice for your Product development team?</h3>
                 </p>
-                <p>
-                    Multitasking is their first nature</br>
-                    Most of the times they sit between the customer, the engineering team, and the product team (and possibly other teams) trying to communicate with all of them at the same time in order to ensure that the customer’s issue will be solved on time, the users’ needs become ideas for new products or improvements, the customers that have been previously qualified as good customers are indeed good match etc. It reminds you of a hub right? Does this make any connection with the Product manager’s everyday life?
-                </p>
-                <p>
-                    Prioritization is their bread & butter</br>
-                    Being well organized and changing priorities throughout the day is a must have if you want to manage with the loads of requests and incoming information (new products, new bugs, new features, upsell targets etc.)
-                </p>
-                <p>
-                    Good listener and showing empathy while taking heat</br>
-                    We hear about it all the time but customer support puts it into practice. How? You go beyond what the customer says or what she even thinks she wants and you find the problem behind the problem. Things can be really tricky at times. However, you know how to get to the root of the issue. Then, one step further, understanding the customer needs and the possible frustration you call forth your communication skills to show some empathy and make the customer understand how much you value the business with him and his input. Product management does the same when it comes to developing new products or features. Understand the problem, feel its importance and then transfer it to the rest of the company (stakeholders, designers and developers).
-                </p>
-                <p>
-                    Communication</br>
-                    Communication is a vital part for any team. Having a background in customer support, enables you to communicate with various stakeholders (from C-level to non-technical people) using the right vocabulary and tone.
-                </p>
-                <p>
-                    Code complexity & project management literacy</br>
+                <p><ul id="blog-ul"><li>Multitasking is their first nature</ul></li>
+                    Most of the times they sit between the customer, the engineering team, and the product team (and possibly other teams) trying to communicate with all of them at the same time in order to ensure that the customer's issue will be solved on time, the users' needs become ideas for new products or improvements, the customers that have been previously qualified as good customers are indeed good match etc. It reminds you of a hub right? Does this make any connection with the Product manager's everyday life?</p>
+                <p><ul id="blog-ul"><li>Prioritization is their bread & butter</ul></li>
+                    Being well organized and changing priorities throughout the day is a must have if you want to manage with the loads of requests and incoming information (new products, new bugs, new features, upsell targets etc.)</p>
+                <p><ul id="blog-ul"><li>Good listener and showing empathy while taking heat</ul></li>
+                    We hear about it all the time but customer support puts it into practice. How? You go beyond what the customer says or what she even thinks she wants and you find the problem behind the problem. Things can be really tricky at times. However, you know how to get to the root of the issue. Then, one step further, understanding the customer needs and the possible frustration you call forth your communication skills to show some empathy and make the customer understand how much you value the business with him and his input. Product management does the same when it comes to developing new products or features. Understand the problem, feel its importance and then transfer it to the rest of the company (stakeholders, designers and developers).</p>
+                <p><ul id="blog-ul"><li>Communication</ul></li>
+                    Communication is a vital part for any team. Having a background in customer support, enables you to communicate with various stakeholders (from C-level to non-technical people) using the right vocabulary and tone.</p>
+                <p><ul id="blog-ul"><li>Code complexity & project management literacy</ul></li>
                     Focusing on the technical support now - software and/or hardware knowledge
-                    Technical Support understands the code that you see in front you, she/he probably knows some coding or have an understanding of networks or hardware design, etc. All the previously mentioned are sometimes essential in becoming a technical support agent or acquired while working with the product. This happens also in the case of the Product Manager. It is good to have some understanding of the technical aspects but many things can be understood on the road to your new MVP.
-                </p>
-                <p>
-                    All in all,
-                </p>
+                    Technical Support understands the code that you see in front you, she/he probably knows some coding or have an understanding of networks or hardware design, etc. All the previously mentioned are sometimes essential in becoming a technical support agent or acquired while working with the product. This happens also in the case of the Product Manager. It is good to have some understanding of the technical aspects but many things can be understood on the road to your new MVP.</p>
+                
+		<p>All in all,</p>
                 <p>
                     Customer Support Engineers are often overlooked in the process of hiring Product Managers.
                     Mostly due to:
                 </p>
                 <p>
                     <ul>
-                        <li>Underestimation of support/success roles’ contribution to the customer’s lifecycle</li>
-                        </li>The level of technical proficiency might not be as high (as fellow product managers)</li>
+                        <li>Underestimation of support/success roles' contribution to the customer's lifecycle</li>
+                        <li>The level of technical proficiency might not be as high (as fellow product managers)</li>
                     </ul>
                 </p>
                 <p>
@@ -67,7 +67,27 @@
 		    </div>
 	    </div>
 	</div>
+
+<div id="disqus_thread"></div>
+
+<script>
+    var disqus_config = function () {
+    this.page.url = "https://azelios.gr/tags/";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "customer-support-engineer-product-manager"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://azelios.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+
+
 
 
     <!--footer elements-->
