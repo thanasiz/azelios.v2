@@ -78,7 +78,7 @@ hr {
 
 .fab {
 	color: #169D7E;
-	scale: (1.5, 1.5);
+	transform: scale(1.5, 1.5);
 }
 
 .dropdown {
